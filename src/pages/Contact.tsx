@@ -244,6 +244,14 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.297324736775!2d55.26420568537494!3d25.197197083851743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xadc6fbc1a97c9a0f!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sus!4v1625765498728!5m2!1sen!2sus"
+          width="100%"
+          height="450"
+          style={{ border: 0 }}
+          allowFullScreen={true}
+          loading="lazy"
+            ></iframe>
     </motion.div>
   );
 };
