@@ -101,19 +101,19 @@ const Home = () => {
     {
       title: 'Power Tools',
       description: 'High-performance electric and cordless tools',
-      image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://www.bolymetal.com/wp-content/uploads/2021/10/powertool_0-scaled.jpg',
       count: '150+ Products'
     },
     {
       title: 'Safety Equipment',
       description: 'Complete safety solutions for workplace protection',
-      image: 'https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://www.shutterstock.com/image-photo/standard-construction-safetysafety-first-conceptsconstruction-600nw-1693203724.jpg',
       count: '300+ Products'
     },
     {
       title: 'Core Drilling',
       description: 'Professional core drilling equipment and accessories',
-      image: 'https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://www.husqvarnaconstruction.com/-/images/aprimo/husqvarna-construction/drill-motors-with-stand/photos/action/hc450-0120.png?v=69081dab84aa9e43&format=PNG_3_2_COVER_MD',
       count: '50+ Products'
     },
   ];

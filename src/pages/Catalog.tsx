@@ -218,11 +218,11 @@ const Catalog = () => {
                   whileHover={{ y: -10 }}
                   className="bg-gray-100 border border-gray-200 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
                 >
-                  <div className="aspect-w-16 bg-white aspect-h-12 overflow-hidden">
+                  <div className="aspect-w-16 h-72 md:64 bg-white aspect-h-12 overflow-hidden">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="w-full h-60 bg-white object-cover group-hover:scale-110 transition-transform duration-500"
+                      className="w-full h-72 md:h-64 group-hover:scale-110 transition-transform duration-500"
                     />
                   </div>
                   <div className="p-6">
