@@ -28,12 +28,12 @@ const Home = () => {
   ];
 
   const brands = [
-    { name: 'Dewalt', logo: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop' },
-    { name: 'Bosch', logo: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop' },
-    { name: 'Makita', logo: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop' },
-    { name: 'Stanley', logo: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop' },
-    { name: 'Makute', logo: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop' },
-    { name: '3M', logo: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=200&h=100&fit=crop' },
+    { name: 'Dewalt', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/DeWalt_Logo.svg/1200px-DeWalt_Logo.svg.png' },
+    { name: 'Bosch', logo: 'https://s19538.pcdn.co/wp-content/uploads/2016/09/Bosch-Logo.png' },
+    { name: 'Makita', logo: 'https://thumbs.dreamstime.com/b/photo-white-makita-word-green-background-construction-tools-set-photo-white-makita-word-green-background-235421856.jpg' },
+    { name: 'Stanley', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Stanley_Hand_Tools_logo.svg/1200px-Stanley_Hand_Tools_logo.svg.png' },
+    { name: 'Cayken', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSssHH_3d-Klz_DD0kBKRy7D28ezfyPVYVSA&s' },
+    { name: '3M', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdrCTFYk1X1FFsaNK4Nh1cKM04hsA9VCsdg&s' },
   ];
 
   const services = [
@@ -126,7 +126,7 @@ const Home = () => {
       className="pt-16"
     >
       {/* Hero Section - Redesigned for Professional Excellence */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
+      <section className="pb-10 md:pb-0 mt-10 md:mt-0 relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
         {/* Sophisticated Background Pattern */}
         <div className="absolute inset-0">
           {/* Primary gradient overlay */}
@@ -323,7 +323,7 @@ const Home = () => {
           </div>
 
           {/* Trust Indicators */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.4 }}
@@ -348,7 +348,7 @@ const Home = () => {
                 </motion.div>
               ))}
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </section>
 

@@ -16,59 +16,58 @@ const Catalog = () => {
 
   const products = [
     // Tools
-    { name: 'Dewesser', category: 'Tools', image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Roto', category: 'Tools', image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Tuf Fix', category: 'Tools', image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Juster', category: 'Tools', image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Danmi', category: 'Tools', image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Clarke', category: 'Tools', image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Vermolen\'s', category: 'Tools', image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Total', category: 'Tools', image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Kitools', category: 'Tools', image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Stanley', category: 'Tools', image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Hero (Japan)', category: 'Tools', image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
+    { name: 'Dewesser', category: 'Tools', image: 'https://dewesser.com/wp-content/uploads/2025/01/Untitled-design-4-1-1.jpg' },
+    { name: 'Roto', category: 'Tools', image: 'https://m.media-amazon.com/images/I/71Sy2guCroL.jpg' },
+    { name: 'Tuf Fix', category: 'Tools', image: 'https://tuffix.com/cdn/shop/files/18-tool-bag.png?v=1710842015' },
+    { name: 'Juster', category: 'Tools', image: 'https://cdnimg.chinagoods.com/jpg/2023/02/25/99c1f2cb3db1843c166805fcf9c76932.jpg?imageMogr2/format/webp/thumbnail/400x' },
+    { name: 'Danmi', category: 'Tools', image: 'https://5.imimg.com/data5/SELLER/Default/2024/9/451921500/TR/YP/FG/160813913/20v-danmi-cordless-screw-driver.jpg' },
+    { name: 'Clarke', category: 'Tools', image: 'https://3.imimg.com/data3/HU/LQ/MY-1447722/clarke-tool-500x500.jpg' },
+    { name: 'Vermolen\'s', category: 'Tools', image: 'https://cdn.salla.sa/KlwqK/gUMmRRBKrmjR3ArvFk4NfTPM57Iml077VcbTyKtA.jpg' },
+    { name: 'Total', category: 'Tools', image: 'https://toolshub.co.in/wp-content/uploads/TH115326-1.jpg' },
+    { name: 'Kitools', category: 'Tools', image: 'https://m.media-amazon.com/images/I/41IIIszw2JL.jpg' },
+    { name: 'Stanley', category: 'Tools', image: 'https://rukminid2.flixcart.com/image/750/900/kwxv98w0/tool-kit/v/7/e/sch121s1h-b1-sch121s1h-b1-stanley-original-imag9ghjnnguzbyr.jpeg?q=90&crop=false' },
+    { name: 'Hero (Japan)', category: 'Tools', image: 'https://hem.co.jp/wp/wp-content/uploads/materials/com_rekishi_img_17.jpg' },
 
     // Power Tools
-    { name: 'Makute', category: 'Power Tools', image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Kitool', category: 'Power Tools', image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Dewalt', category: 'Power Tools', image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Bosch', category: 'Power Tools', image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Makita', category: 'Power Tools', image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Stanley Power', category: 'Power Tools', image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Juster Power', category: 'Power Tools', image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Dewesser Power', category: 'Power Tools', image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
+    { name: 'Makute', category: 'Power Tools', image: 'https://s.alicdn.com/@sc04/kf/H8f5a3d7e133d4bd39ea5829b938436abl.jpg' },
+    { name: 'Kitool', category: 'Power Tools', image: 'https://z.nooncdn.com/products/tr:n-t_400/pzsku/Z65072CEC331260B628F0Z/45/_/1659523011/115f20ae-4aeb-44a0-bfb2-689acf698d21.jpg' },
+    { name: 'Dewalt', category: 'Power Tools', image: 'https://in.dewalt.global/ASIA/PRODUCT/IMAGES/HIRES/DCF850N-XJ/DCF850N_1.jpg?resize=530x530' },
+    { name: 'Bosch', category: 'Power Tools', image: 'https://www.liontoolsmart.com/cdn/shop/products/BOSCH-IMPACT-DRILL-GSB-501-13-MM-1.jpg?v=1610364590' },
+    { name: 'Makita', category: 'Power Tools', image: 'https://makita.in/wp-content/uploads/2025/06/DTC102_PR_IMG.jpg' },
+    { name: 'Stanley Power', category: 'Power Tools', image: 'https://etoolstore.in/cdn/shop/files/71hHIeCMwPL._SX679.jpg?v=1719990765&width=1445' },
+    { name: 'Juster Power', category: 'Power Tools', image: 'https://p.globalsources.com/IMAGES/PDT/B1207903498/Rotary-Hammer.jpg' },
+    { name: 'Dewesser Power', category: 'Power Tools', image: 'https://dewesser.com/wp-content/uploads/2025/01/cordless-1.webp' },
 
     // Safety Equipment
-    { name: 'KA7 Safety Shoes', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Road Mate Safety Shoes', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Ultimate Plus Safety Shoes', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'JCBman Safety Shoes', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Roto Safety Equipment', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Strong Hammer Safety', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: '2MK Safety Vest', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'VOLTA Safety Vest', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Roto Safety Vest', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Vaultex Safety Vest', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Hi-Tex Safety Vest', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Super Hammer Safety Vest', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: '3M Safety Vest', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/5691607/pexels-photo-5691607.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Volta Safety Gloves', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/4792083/pexels-photo-4792083.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Hi-Tex Safety Gloves', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/4792083/pexels-photo-4792083.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Pro Guard Safety Gloves', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/4792083/pexels-photo-4792083.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'OT Safety Gloves', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/4792083/pexels-photo-4792083.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'SPH Safety Gloves', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/4792083/pexels-photo-4792083.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Vaultex Safety Gloves', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/4792083/pexels-photo-4792083.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Vaultex Safety Helmet', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'Hi-Tex Safety Helmet', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: '3M Safety Helmet', category: 'Safety Equipment', image: 'https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
+    { name: 'KA7 Safety Shoes', category: 'Safety Equipment', image: 'https://dareensafety.com/public/images/20250517105439.webp--0' },
+    { name: 'Road Mate Safety Shoes', category: 'Safety Equipment', image: 'https://unitedvco.com/wp-content/uploads/2023/12/image-removebg.jpg' },
+    { name: 'Ultimate Plus Safety Shoes', category: 'Safety Equipment', image: 'https://5.imimg.com/data5/SELLER/Default/2024/6/425317643/VD/DQ/QW/7416951/high-tech-ht-856-ultimate-safety-shoes.jpg' },
+    { name: 'JCBman Safety Shoes', category: 'Safety Equipment', image: 'https://5.imimg.com/data5/SELLER/Default/2023/3/296766780/AW/GR/JM/10280730/jcb-excavator-safety-shoes.jpg' },
+    { name: 'Roto Safety Equipment', category: 'Safety Equipment', image: 'https://content.jdmagicbox.com/quickquotes/images_main/safety-helmets-22-07-2020-057-185815609-txsae.jpg?impolicy=queryparam&im=Resize=(360,360),aspect=fit' },
+    { name: 'Strong Hammer Safety', category: 'Safety Equipment', image: 'https://image.made-in-china.com/2f0j00HWPcgIUnbKoV/Multifunctional-Safety-Hammer-Multi-Purpose-Pliers-Hammer.webp' },
+    { name: '2MK Safety Vest', category: 'Safety Equipment', image: 'https://m.media-amazon.com/images/I/710SRp2VRpL._SL1500_.jpg' },
+    { name: 'VOLTA Safety Vest', category: 'Safety Equipment', image: 'https://cdn.salla.sa/jZbOpD/3e8cfbf8-e843-49f7-bcd4-b0bbc56854e3-995.94320486815x1000-A5FmYAGCga5D4A0AIeZYqFDc3OV8DLfKS9e5et7o.png' },
+    { name: 'Roto Safety Vest', category: 'Safety Equipment', image: 'https://res.cloudinary.com/fleetfarm-dam/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/SKU_Assets/101728024?pgw=1' },
+    { name: 'Vaultex Safety Vest', category: 'Safety Equipment', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_y-F7d1s_A7ObyG0w6Lvuk6FuduLCHVepgQ&s' },
+    { name: 'Hi-Tex Safety Vest', category: 'Safety Equipment', image: 'https://i.ebayimg.com/images/g/nWMAAOSwOZ5kvw88/s-l400.jpg' },
+    { name: 'Super Hammer Safety Vest', category: 'Safety Equipment', image: 'https://www.blacksafeoutlet.com/cdn/shop/files/my-11134207-7r98q-lwcp4s0nozu287.jpg?v=1721114346&width=416' },
+    { name: '3M Safety Vest', category: 'Safety Equipment', image: 'https://5.imimg.com/data5/SELLER/Default/2021/2/QV/DV/TZ/122409799/reflective-jacket-with-pockets-v1.jpg' },
+    { name: 'Volta Safety Gloves', category: 'Safety Equipment', image: 'https://5.imimg.com/data5/SELLER/Default/2023/5/312511330/NB/QD/TJ/138864401/volta-cut-resistant-safety-gloves.jpeg' },
+    { name: 'Hi-Tex Safety Gloves', category: 'Safety Equipment', image: 'https://unitedvco.com/wp-content/uploads/2023/09/image-removebg-preview-30.webp' },
+    { name: 'Pro Guard Safety Gloves', category: 'Safety Equipment', image: 'https://m.media-amazon.com/images/I/81lkJ42BJOL.jpg' },
+    { name: 'OT Safety Gloves', category: 'Safety Equipment', image: 'https://m.media-amazon.com/images/I/51j+weBhxrL._UF1000,1000_QL80_.jpg' },
+    { name: 'SPH Safety Gloves', category: 'Safety Equipment', image: 'https://www.speccotools.com/uploaded/products/image-20231121194756.png' },
+    { name: 'Vaultex Safety Gloves', category: 'Safety Equipment', image: 'https://m.media-amazon.com/images/I/61Z3CuKtjIL._AC_UF894,1000_QL80_.jpg' },
+    { name: 'Vaultex Safety Helmet', category: 'Safety Equipment', image: 'https://youmats-media.s3.me-central-1.amazonaws.com/225725/conversions/Screenshot_2-removebg-preview-size_500_500.webp' },
+    { name: 'Hi-Tex Safety Helmet', category: 'Safety Equipment', image: 'https://modern.omar.alyomhost.org//storage/photos/shares/___________________________________1446-02-12______13_21_25_d0cedfb0.jpg' },
+    { name: '3M Safety Helmet', category: 'Safety Equipment', image: 'https://5.imimg.com/data5/HJ/HI/MY-2946210/3m-safety-helmet-500x500.jpg' },
 
     // Core Drill
-    { name: 'CAYKEN SCY-2050', category: 'Core Drill', image: 'https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'CAYKEN SCY-2550', category: 'Core Drill', image: 'https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'CAYKEN SCY-2550C (Gear)', category: 'Core Drill', image: 'https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'CAYKEN SCY-3050', category: 'Core Drill', image: 'https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'CAYKEN SCY-3050C (Gear)', category: 'Core Drill', image: 'https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
-    { name: 'CAYKEN Spare Parts', category: 'Core Drill', image: 'https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop' },
+    { name: 'CAYKEN SCY-2050', category: 'Core Drill', image: 'https://caykentools.com/wp-content/uploads/2021/01/scy-2050-1.jpg' },
+    { name: 'CAYKEN SCY-2550C (Gear)', category: 'Core Drill', image: 'https://caykentools.com/wp-content/uploads/2021/02/588A5453.jpg' },
+    { name: 'CAYKEN SCY-3050', category: 'Core Drill', image: 'https://caykentools.com/wp-content/uploads/2021/01/SCY-2050.jpg' },
+    { name: 'CAYKEN SCY-3050C (Gear)', category: 'Core Drill', image: 'https://caykentools.com/wp-content/uploads/2021/01/SCY-3050C.png' },
+    { name: 'CAYKEN Spare Parts', category: 'Core Drill', image: 'https://cdn11.bigcommerce.com/s-i6v6yvxcip/images/stencil/500x659/products/3021/18743/CK-OND-916PD-400F_01__89015.1725464978.jpg?c=1' },
   ];
 
   const filteredProducts = useMemo(() => {
@@ -217,18 +216,18 @@ const Catalog = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.05 }}
                   whileHover={{ y: -10 }}
-                  className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
+                  className="bg-gray-100 border border-gray-200 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
                 >
-                  <div className="aspect-w-16 aspect-h-12 overflow-hidden">
+                  <div className="aspect-w-16 bg-white aspect-h-12 overflow-hidden">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                      className="w-full h-60 bg-white object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                   </div>
                   <div className="p-6">
                     <div className="flex items-center justify-between mb-3">
-                      <span className="text-xs font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                      <span className="text-xs font-medium text-blue-600 bg-blue-200 px-3 py-1 rounded-full">
                         {product.category}
                       </span>
                     </div>
