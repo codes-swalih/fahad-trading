@@ -183,7 +183,7 @@ const Home = () => {
                 className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-50 to-orange-50 border border-blue-100 rounded-full mb-8"
               >
                 <Award className="h-4 w-4 text-blue-600 mr-2" />
-                <span className="text-sm font-medium text-gray-700">Premium Trading Excellence Since 2009</span>
+                <span className="text-sm font-medium text-gray-700">Premium Trading Excellence Since 2023</span>
               </motion.div>
 
               {/* Main Heading */}
@@ -293,7 +293,7 @@ const Home = () => {
                       <Award className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-gray-900">15+</div>
+                      <div className="text-2xl font-bold text-gray-900">2+</div>
                       <div className="text-sm text-gray-600">Years Excellence</div>
                     </div>
                   </div>

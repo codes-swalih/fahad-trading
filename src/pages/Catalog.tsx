@@ -17,7 +17,7 @@ const Catalog = () => {
   const products = [
     // Tools
     { name: 'Dewesser', category: 'Tools', image: 'https://dewesser.com/wp-content/uploads/2025/01/Untitled-design-4-1-1.jpg' },
-    { name: 'Roto', category: 'Tools', image: 'https://m.media-amazon.com/images/I/71Sy2guCroL.jpg' },
+    { name: 'Roto', category: 'Power Tools', image: 'https://m.media-amazon.com/images/I/71Sy2guCroL.jpg' },
     { name: 'Tuf Fix', category: 'Tools', image: 'https://tuffix.com/cdn/shop/files/18-tool-bag.png?v=1710842015' },
     { name: 'Juster', category: 'Tools', image: 'https://cdnimg.chinagoods.com/jpg/2023/02/25/99c1f2cb3db1843c166805fcf9c76932.jpg?imageMogr2/format/webp/thumbnail/400x' },
     { name: 'Danmi', category: 'Tools', image: 'https://5.imimg.com/data5/SELLER/Default/2024/9/451921500/TR/YP/FG/160813913/20v-danmi-cordless-screw-driver.jpg' },
