@@ -19,14 +19,14 @@ const Contact = () => {
   };
 
   const handleCall = () => {
-    window.location.href = 'tel:+971XXXXXXXX';
+    window.location.href = 'tel:+966552601880';
   };
 
   const contactInfo = [
     {
       icon: Phone,
       title: 'Phone',
-      info: '+971 XX XXX XXXX',
+      info: '+966552601880',
       action: handleCall,
     },
     {
@@ -38,14 +38,14 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Location',
-      info: 'Dubai, UAE',
+      info: 'Saudi Arabia, Riyadh',
       action: () => {},
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp',
-      info: '+971 XX XXX XXXX',
-      action: () => window.open('https://wa.me/971XXXXXXXX', '_blank'),
+      info: '+966552601880',
+      action: () => window.open('https://wa.me/+966552601880', '_blank'),
     },
   ];
 
@@ -71,7 +71,7 @@ const Contact = () => {
             className="absolute inset-0 opacity-30"
             style={{
               backgroundImage: `url('https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1920&h=600&fit=crop')`,
-              backgroundSize: '120%',
+              backgroundSize: 'full',
             }}
           />
         </div>
@@ -245,7 +245,7 @@ const Contact = () => {
         </div>
       </section>
       <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.297324736775!2d55.26420568537494!3d25.197197083851743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xadc6fbc1a97c9a0f!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sus!4v1625765498728!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2232.2957241528316!2d46.72709014809933!3d24.645209670027306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f05834bb12cb1%3A0xe7bdf106fcbbdef6!2zU3VhZCBOb21hbiBUcmFkaW5nIEVzdC4g2YXYpNiz2LPYqSDYs9i52KfYryDZhtmI2YXYp9mGINit2LXZiNmKINin2YTYudmG2LLZiiDZhNmE2KrYrNin2LHYqQ!5e0!3m2!1sen!2sin!4v1750641538039!5m2!1sen!2sin"
           width="100%"
           height="450"
           style={{ border: 0 }}

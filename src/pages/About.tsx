@@ -121,7 +121,7 @@ const About = () => {
                 className="absolute -bottom-6 -right-6 bg-gradient-to-r from-orange-500 to-orange-600 p-6 rounded-xl shadow-lg text-white"
               >
                 <div className="text-center">
-                  <div className="text-2xl font-bold">15+</div>
+                  <div className="text-2xl font-bold">2+</div>
                   <div className="text-sm">Years of Excellence</div>
                 </div>
               </motion.div>
@@ -147,7 +147,7 @@ const About = () => {
               <p className="text-gray-600 leading-relaxed">
                 To empower professionals and businesses with reliable, high-quality tools and equipment 
                 that enhance productivity, ensure safety, and deliver exceptional value. We strive to be 
-                the trusted partner for all industrial and construction needs in the UAE.
+                the trusted partner for all industrial and construction needs in the Saudi Arabia.
               </p>
             </motion.div>
 

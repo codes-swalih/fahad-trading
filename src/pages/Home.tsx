@@ -34,6 +34,7 @@ const Home = () => {
     { name: 'Stanley', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Stanley_Hand_Tools_logo.svg/1200px-Stanley_Hand_Tools_logo.svg.png' },
     { name: 'Cayken', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSssHH_3d-Klz_DD0kBKRy7D28ezfyPVYVSA&s' },
     { name: '3M', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdrCTFYk1X1FFsaNK4Nh1cKM04hsA9VCsdg&s' },
+    { name: 'Dong Cheng', logo: 'https://aikchinhin.sg/cdn/shop/collections/dong-cheng-651917_600x600_crop_center.jpg?v=1666677186' },
   ];
 
   const services = [
@@ -85,7 +86,6 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: '15+', label: 'Years of Excellence' },
     { number: '500+', label: 'Satisfied Clients' },
     { number: '50+', label: 'Global Brands' },
     { number: '24/7', label: 'Customer Support' },
@@ -95,7 +95,7 @@ const Home = () => {
     {
       title: 'Hand Tools',
       description: 'Professional hand tools for precision work',
-      image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+      image: 'https://i.pinimg.com/736x/23/b8/28/23b828f5668807de66ca02c54bd513e7.jpg',
       count: '200+ Products'
     },
     {
@@ -207,7 +207,7 @@ const Home = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed font-light"
               >
-                Elevating industries with premium power tools, safety equipment, and professional solutions across the UAE
+                Elevating industries with premium power tools, safety equipment, and professional solutions across the SAUDI ARABIA
               </motion.p>
 
               {/* Key Features */}
@@ -250,7 +250,7 @@ const Home = () => {
                 <motion.button
                   whileHover={{ scale: 1.02, y: -2 }}
                   whileTap={{ scale: 0.98 }}
-                  onClick={() => window.open('https://wa.me/971XXXXXXXX?text=Hi! I would like to know more about your premium tools and services.', '_blank')}
+                  onClick={() => window.open('https://wa.me/+966552601880?text=Hi! I would like to know more about your premium tools and services.', '_blank')}
                   className="group border-2 border-gray-300 hover:border-orange-500 text-gray-700 hover:text-orange-600 px-8 py-4 rounded-2xl text-lg font-semibold flex items-center space-x-3 transition-all duration-300 hover:bg-orange-50"
                 >
                   <MessageCircle className="h-5 w-5" />
@@ -372,13 +372,13 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold mb-4">Trusted by Professionals Across the UAE</h2>
+            <h2 className="text-4xl font-bold mb-4">Trusted by Professionals Across the Saudi Arabia</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Our commitment to excellence has earned us the trust of industry leaders
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2  lg:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}
@@ -696,7 +696,7 @@ const Home = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.open('https://wa.me/971XXXXXXXX?text=Hi! I would like to know more about your products and services.', '_blank')}
+              onClick={() => window.open('https://wa.me/+966552601880?text=Hi! I would like to know more about your products and services.', '_blank')}
               className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 px-8 py-4 rounded-full text-lg font-semibold flex items-center space-x-2 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               <MessageCircle className="h-5 w-5" />

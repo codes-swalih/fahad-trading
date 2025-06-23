@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Phone, Mail, MapPin, Wrench } from 'lucide-react';
+import logo from '../assets/logo.jpeg'; // Adjust the path as necessary
 
 const Footer = () => {
   return (
@@ -15,13 +16,14 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <motion.div
+              {/* <motion.div
                 whileHover={{ rotate: 360 }}
                 transition={{ duration: 0.5 }}
                 className="bg-gradient-to-r from-blue-600 to-orange-500 p-2 rounded-lg"
               >
                 <Wrench className="h-8 w-8 text-white" />
-              </motion.div>
+              </motion.div> */}
+              <img src={logo} alt="" className=' w-14 h-14' />
               <div>
                 <h3 className="text-2xl font-bold">Fahad Trading</h3>
                 <p className="text-sm text-gray-300">Est.</p>
@@ -57,7 +59,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-orange-400" />
-                <span className="text-gray-300">+971 XX XXX XXXX</span>
+                <span className="text-gray-300">+966 55 260 1880</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-orange-400" />
@@ -65,7 +67,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-orange-400" />
-                <span className="text-gray-300">Dubai, UAE</span>
+                <span className="text-gray-300">Saudi Arabia, riyadh</span>
               </div>
             </div>
           </div>
