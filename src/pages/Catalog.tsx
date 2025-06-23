@@ -123,7 +123,8 @@ const Catalog = () => {
     {
       name: "CAYKEN SCY-2550C",
       category: "Core Drill",
-      image: "https://caykentools.com/wp-content/uploads/2021/01/scy-2050-1.jpg",
+      image:
+        "https://caykentools.com/wp-content/uploads/2021/01/scy-2050-1.jpg",
     },
     {
       name: "CAYKEN SCY-2550C (Gear)",
@@ -172,7 +173,7 @@ const Catalog = () => {
     },
     {
       category: "Safety Vests",
-      brands: [volta, roto, vaultex,threem],
+      brands: [volta, roto, vaultex, threem],
       displayImage: vest,
       description:
         "We provide a Wide range of high quality Safety Helmets of known brands across the world",
@@ -306,11 +307,12 @@ const Catalog = () => {
       <div className="md:grid md:grid-cols-3 md:gap-5 md:p-10 p-5 flex flex-col gap-5  ">
         {brandProducts.map((items, index) => {
           return (
-            <div key={index} className=" p-6 border bg-gray-100 text-black rounded-xl ">
+            <div
+              key={index}
+              className=" p-6 border bg-gray-100 text-black rounded-xl "
+            >
               <h2 className="text-xl font-bold mb-2">{items.category}</h2>
-              <p className="text-sm text-gray-600 mb-4">
-                {items.description}
-              </p>
+              <p className="text-sm text-gray-600 mb-4">{items.description}</p>
               <img
                 src={items.displayImage}
                 alt={items.category}
@@ -334,14 +336,20 @@ const Catalog = () => {
                   </motion.div>
                 ))}
               </div>
-               <motion.button
-                      whileHover={{ scale: 1.02 }}
-                      whileTap={{ scale: 0.98 }}
-                      className="w-full mt-5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-4 py-3 rounded-lg font-medium flex items-center justify-center space-x-2 transition-all duration-300 shadow-md hover:shadow-lg"
-                    >
-                      <MessageCircle className="h-4 w-4" />
-                      <span>Inquire on WhatsApp</span>
-                    </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/+966552601880?text=Hi! I would like to know more about your premium tools and services.",
+                    "_blank"
+                  )
+                }
+                className="w-full mt-5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-4 py-3 rounded-lg font-medium flex items-center justify-center space-x-2 transition-all duration-300 shadow-md hover:shadow-lg"
+              >
+                <MessageCircle className="h-4 w-4" />
+                <span>Inquire on WhatsApp</span>
+              </motion.button>
             </div>
             // <CardContainer key={index} className=" text-black">
             //   <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-gray-100 dark:border-black/[0.2] border-black/[0.1]   h-auto rounded-xl p-6 border  ">
@@ -454,7 +462,12 @@ const Catalog = () => {
                     <motion.button
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
-                      onClick={() => handleWhatsAppInquiry(product.name)}
+                      onClick={() =>
+                        window.open(
+                          "https://wa.me/+966552601880?text=Hi! I would like to know more about your premium tools and services.",
+                          "_blank"
+                        )
+                      }
                       className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-4 py-3 rounded-lg font-medium flex items-center justify-center space-x-2 transition-all duration-300 shadow-md hover:shadow-lg"
                     >
                       <MessageCircle className="h-4 w-4" />
