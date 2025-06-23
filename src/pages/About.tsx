@@ -103,7 +103,7 @@ const About = () => {
               </div>
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, x: 50 }}
+              initial={{ opacity: 0, x: 0 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               className="relative"
@@ -116,7 +116,7 @@ const About = () => {
                 />
               </div>
               <motion.div
-                animate={{ y: [0, -10, 0] }}
+                animate={{ y: [0, 0, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
                 className="absolute -bottom-6 -right-6 bg-gradient-to-r from-orange-500 to-orange-600 p-6 rounded-xl shadow-lg text-white"
               >
