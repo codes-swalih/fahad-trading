@@ -87,7 +87,7 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p className="text-lg">
-                  Fahad Trading Establishment was founded with a vision to provide the UAE market with 
+                  Fahad Trading Establishment was founded with a vision to provide the Saudi Arabia market with 
                   the highest quality power tools, safety equipment, and industrial supplies. Our journey 
                   began with a simple belief: professionals deserve tools they can trust.
                 </p>

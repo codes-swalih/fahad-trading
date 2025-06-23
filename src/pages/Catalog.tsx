@@ -7,6 +7,7 @@ import glove from "../assets/glowe2.jpeg";
 import shoes from "../assets/shoes.jpeg";
 import vest from "../assets/vest.jpeg";
 import helmet from "../assets/helmet1.jpeg";
+import spare from "../assets/spare.jpg";
 import crown from "../assets/brands/crown.jpeg";
 import dewesser from "../assets/brands/dewesser.jpeg";
 import ka7 from "../assets/brands/ka7.jpeg";
@@ -121,7 +122,7 @@ const Catalog = () => {
         "https://caykentools.com/wp-content/uploads/2021/01/scy-2050-1.jpg",
     },
     {
-      name: "CAYKEN SCY-2550C",
+      name: "CAYKEN SCY-2550",
       category: "Core Drill",
       image:
         "https://caykentools.com/wp-content/uploads/2021/01/scy-2050-1.jpg",
@@ -145,7 +146,7 @@ const Catalog = () => {
       name: "CAYKEN Spare Parts",
       category: "Core Drill",
       image:
-        "https://cdn11.bigcommerce.com/s-i6v6yvxcip/images/stencil/500x659/products/3021/18743/CK-OND-916PD-400F_01__89015.1725464978.jpg?c=1",
+        spare
     },
   ];
 
