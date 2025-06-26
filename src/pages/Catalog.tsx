@@ -145,8 +145,7 @@ const Catalog = () => {
     {
       name: "CAYKEN Spare Parts",
       category: "Core Drill",
-      image:
-        spare
+      image: spare,
     },
   ];
 
@@ -177,7 +176,81 @@ const Catalog = () => {
       brands: [volta, roto, vaultex, threem],
       displayImage: vest,
       description:
-        "We provide a Wide range of high quality Safety Helmets of known brands across the world",
+        "We provide a Wide range of high quality Safety Vest of known brands across the world",
+    },
+    {
+      category: "Hilti Drills",
+      brands: [
+        "https://thumbs.dreamstime.com/b/photo-white-makita-word-green-background-construction-tools-set-photo-white-makita-word-green-background-235421856.jpg",
+        "https://bctechnologies.co.in/wp-content/uploads/2020/07/bosch-logo-big.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/DeWalt_Logo.svg/1200px-DeWalt_Logo.svg.png",
+        makute,
+        dewesser,
+        crown,
+      ],
+      displayImage:
+        "https://m.media-amazon.com/images/I/41ln6-xDF4L.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
+      description:
+        "We provide a Wide range of high quality Hilti Drills of known brands across the world",
+    },
+    {
+      category: "Drills",
+      brands: [
+        "https://thumbs.dreamstime.com/b/photo-white-makita-word-green-background-construction-tools-set-photo-white-makita-word-green-background-235421856.jpg",
+        "https://bctechnologies.co.in/wp-content/uploads/2020/07/bosch-logo-big.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/DeWalt_Logo.svg/1200px-DeWalt_Logo.svg.png",
+        makute,
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Stanley_Hand_Tools_logo.svg/1200px-Stanley_Hand_Tools_logo.svg.png",
+      ],
+      displayImage:
+        "https://cdn.thewirecutter.com/wp-content/media/2025/05/BEST-DRILLS-2048px-3209.jpg?auto=webp&quality=75&width=1024",
+      description:
+        "We provide a Wide range of high quality Drills of known brands across the world",
+    },
+    {
+      category: "Angle Grinders",
+      brands: [
+        "https://thumbs.dreamstime.com/b/photo-white-makita-word-green-background-construction-tools-set-photo-white-makita-word-green-background-235421856.jpg",
+        "https://bctechnologies.co.in/wp-content/uploads/2020/07/bosch-logo-big.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/DeWalt_Logo.svg/1200px-DeWalt_Logo.svg.png",
+        makute,
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Stanley_Hand_Tools_logo.svg/1200px-Stanley_Hand_Tools_logo.svg.png",
+        "https://5.imimg.com/data5/SELLER/Default/2021/9/PO/IC/NA/24201513/dongcheng-power-tools.jpg",
+      ],
+      displayImage:
+        "https://www.boschtools.com/us/en/ocsmedia/261538-947/application-image/720x410/standard-angle-grinders-gws14-50-06017d0310.png",
+      description:
+        "We provide a Wide range of high quality Angle Grinders of known brands across the world",
+    },
+    {
+      category: "Demolition Hammers",
+      brands: [
+        "https://thumbs.dreamstime.com/b/photo-white-makita-word-green-background-construction-tools-set-photo-white-makita-word-green-background-235421856.jpg",
+        "https://bctechnologies.co.in/wp-content/uploads/2020/07/bosch-logo-big.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/DeWalt_Logo.svg/1200px-DeWalt_Logo.svg.png",
+        makute,
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsIrF6O7Cd7xuxrJz2pD1kLCIkLv0EpO0fgA&s",
+        "https://5.imimg.com/data5/SELLER/Default/2021/9/PO/IC/NA/24201513/dongcheng-power-tools.jpg",
+      ],
+      displayImage:
+        "https://ronixtools.com/img/media/products/2802/modeling-638161869219881985.webp",
+      description:
+        "We provide a Wide range of high quality Demolition Hammers of known brands across the world",
+    },
+    {
+      category: "Cutters",
+      brands: [
+        "https://thumbs.dreamstime.com/b/photo-white-makita-word-green-background-construction-tools-set-photo-white-makita-word-green-background-235421856.jpg",
+        "https://bctechnologies.co.in/wp-content/uploads/2020/07/bosch-logo-big.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/DeWalt_Logo.svg/1200px-DeWalt_Logo.svg.png",
+        makute,
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Stanley_Hand_Tools_logo.svg/1200px-Stanley_Hand_Tools_logo.svg.png",
+        crown,
+      ],
+      displayImage:
+        "https://plus.unsplash.com/premium_photo-1661963010035-01c778b58916?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3V0dGluZyUyMG1hY2hpbmV8ZW58MHx8MHx8fDA%3D",
+      description:
+        "We provide a Wide range of high quality Cutters of known brands across the world",
     },
   ];
 
@@ -507,7 +580,7 @@ const Catalog = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl font-bold mb-6"
           >
-            Need Something Specific?
+            Your One-Stop Solution for Tool Repairs & Services
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -515,8 +588,10 @@ const Catalog = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto"
           >
-            Can't find what you're looking for? Our experts are here to help you
-            find the perfect tools and equipment for your needs.
+            Fahad Trading specializes in comprehensive repair and maintenance
+            services for all types of tools and equipment — across all brands.
+            No matter the issue, we’ve got you covered. For more enquiries,
+            contact us today!
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -529,7 +604,7 @@ const Catalog = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() =>
                 window.open(
-                  "https://wa.me/+966552601880?text=Hi! I need help finding specific tools and equipment.",
+                  "https://wa.me/+966552351040?text=Hi! I Want to know more about your services.",
                   "_blank"
                 )
               }
