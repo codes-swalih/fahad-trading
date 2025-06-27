@@ -32,8 +32,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      info: 'info@fahadtrading.ae',
-      action: () => window.location.href = 'mailto:info@fahadtrading.ae',
+      info: 'tradingestfahad@gmail.com',
+      action: () => window.location.href = 'mailto:tradingestfahad@gmail.com',
     },
     {
       icon: MapPin,

@@ -115,38 +115,38 @@ const Catalog = () => {
     // { name: '3M Safety Helmet', category: 'Safety Equipment', image: 'https://5.imimg.com/data5/HJ/HI/MY-2946210/3m-safety-helmet-500x500.jpg' },
 
     // Core Drill
+    // {
+    //   name: "CAYKEN SCY-2050",
+    //   category: "Core Drill",
+    //   image:
+    //     "https://caykentools.com/wp-content/uploads/2021/01/scy-2050-1.jpg",
+    // },
     {
-      name: "CAYKEN SCY-2050",
+      name: "CAYKEN SCY",
       category: "Core Drill",
       image:
         "https://caykentools.com/wp-content/uploads/2021/01/scy-2050-1.jpg",
     },
-    {
-      name: "CAYKEN SCY-2550",
-      category: "Core Drill",
-      image:
-        "https://caykentools.com/wp-content/uploads/2021/01/scy-2050-1.jpg",
-    },
-    {
-      name: "CAYKEN SCY-2550C (Gear)",
-      category: "Core Drill",
-      image: "https://caykentools.com/wp-content/uploads/2021/02/588A5453.jpg",
-    },
-    {
-      name: "CAYKEN SCY-3050",
-      category: "Core Drill",
-      image: "https://caykentools.com/wp-content/uploads/2021/01/SCY-2050.jpg",
-    },
-    {
-      name: "CAYKEN SCY-3050C (Gear)",
-      category: "Core Drill",
-      image: "https://caykentools.com/wp-content/uploads/2021/01/SCY-3050C.png",
-    },
-    {
-      name: "CAYKEN Spare Parts",
-      category: "Core Drill",
-      image: spare,
-    },
+    // {
+    //   name: "CAYKEN SCY-2550C (Gear)",
+    //   category: "Core Drill",
+    //   image: "https://caykentools.com/wp-content/uploads/2021/02/588A5453.jpg",
+    // },
+    // {
+    //   name: "CAYKEN SCY-3050",
+    //   category: "Core Drill",
+    //   image: "https://caykentools.com/wp-content/uploads/2021/01/SCY-2050.jpg",
+    // },
+    // {
+    //   name: "CAYKEN SCY-3050C (Gear)",
+    //   category: "Core Drill",
+    //   image: "https://caykentools.com/wp-content/uploads/2021/01/SCY-3050C.png",
+    // },
+    // {
+    //   name: "CAYKEN Spare Parts",
+    //   category: "Core Drill",
+    //   image: spare,
+    // },
   ];
 
   const brandProducts = [
