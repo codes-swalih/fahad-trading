@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, Wrench, Shield, HardHat, Zap } from "lucide-react";
+import service from "../assets/services.jpeg";
 
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import glove from "../assets/glowe2.jpeg";
@@ -572,7 +573,13 @@ const Catalog = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+      <section
+        style={{
+          background: `url(${"https://images.unsplash.com/photo-1738162837369-a2beec3a1d47?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"})`,
+          backgroundSize: "center",
+        }}
+        className="py-20 bg-cover text-white relative"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h2
             initial={{ opacity: 0, y: 30 }}

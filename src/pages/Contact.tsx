@@ -32,7 +32,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      info: 'tradingestfahad@gmail.com',
+      info: 'fahadanazi898@gmail.com',
       action: () => window.location.href = 'mailto:tradingestfahad@gmail.com',
     },
     {
