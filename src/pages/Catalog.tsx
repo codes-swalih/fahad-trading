@@ -20,6 +20,7 @@ import vaultex from "../assets/brands/vaultex.jpeg";
 import venus from "../assets/brands/venus.jpeg";
 import threem from "../assets/brands/3m.png";
 import volta from "../assets/brands/volta.jpeg";
+import safetoe from "../assets/brands/safetoe.jpeg";
 const Catalog = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -153,7 +154,7 @@ const Catalog = () => {
   const brandProducts = [
     {
       category: "Safety Shoes",
-      brands: [ka7, roadmate, roto],
+      brands: [ka7, roadmate, safetoe],
       displayImage: shoes,
       description:
         "We provide a Wide range of high quality Safety shoes of known brands across the world",
